@@ -1,0 +1,16 @@
+[project]
+name = "machine-learning-pipelines"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.9"
+dependencies = [
+    "feature-engine>=1.8.3",
+    "fireducks>=1.2.7",
+    "optuna>=4.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
